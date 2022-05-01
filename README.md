@@ -42,3 +42,5 @@ python manage.py runserver
 
 You can access the API through http://127.0.0.1:8000/ and the available endpoint is:
 - (POST) /address/distance/
+
+**Note: This endpoint is a POST request that requires "start" and "end" key-value to be passed to the body.**
